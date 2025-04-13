@@ -104,3 +104,6 @@ def seed_tasks_and_quizzes():
     conn.commit()
     conn.close()
     print("Database seeded with daily tasks and quizzes.")
+
+if __name__ == "__main__":
+    seed_tasks_and_quizzes()
